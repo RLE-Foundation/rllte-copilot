@@ -28,4 +28,4 @@ Streamlit-extras
 
 # Excel File Manipulation
 openpyxl
-gradio
+gradio==3.44.0
