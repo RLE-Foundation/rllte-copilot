@@ -9,7 +9,9 @@ import os
 DEVICE_TYPE = "cuda"
 
 # Define the folder for storing database
-PERSIST_DIRECTORY = "../DB"
+PERSIST_DIRECTORY = "/code/new/localGPT/DB"
+
+MODELS_PATH = "/code/new/localGPT/models/"
 
 # Can be changed to a specific number
 INGEST_THREADS = os.cpu_count() or 8
@@ -43,3 +45,7 @@ EMBEDDING_MODEL_NAME = "hkunlp/instructor-large"
 # Source LLM Model
 MODEL_ID = "TheBloke/Llama-2-7b-Chat-GGUF"
 MODEL_BASENAME = "llama-2-7b-chat.Q4_K_M.gguf"
+
+
+N_GPU_LAYERS = 1000
+N_BATCH = 2048
