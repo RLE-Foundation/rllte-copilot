@@ -9,9 +9,9 @@ import os
 DEVICE_TYPE = "cuda"
 
 # Define the folder for storing database
-PERSIST_DIRECTORY = "/code/new/localGPT/DB"
+PERSIST_DIRECTORY = "./DB"
 
-MODELS_PATH = "/code/new/localGPT/models/"
+MODELS_PATH = "./models/"
 
 # Can be changed to a specific number
 INGEST_THREADS = os.cpu_count() or 8
