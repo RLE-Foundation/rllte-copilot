@@ -46,6 +46,6 @@ RLLTE Copilot: LLM-Empowered Assistant for RL
 
 - How to change the base LLM model?
 
-    Replace the `MODEL_ID` and `MODEL_BASENAME` in `src/constants.py`, and the available options can be found in [Link](https://github.com/PromtEngineer/localGPT/blob/main/constants.py).
+    # Replace the `MODEL_ID` and `MODEL_BASENAME` in `src/constants.py`, and the available options can be found in [Link](https://github.com/PromtEngineer/localGPT/blob/main/constants.py).
   
     Currently, our project utilizes the 'Llama-2-7b-Chat-GGUF' model due to its superior performance. However, we plan to expand the model selection options in the future. Thus, users will be able to select from a range of models to suit their specific needs.
