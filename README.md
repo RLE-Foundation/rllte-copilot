@@ -32,7 +32,7 @@ Finally, open a terminal and run the `app.py`:
 python app.py
 ```
 
-After that, launch the browser and you'll see the following page:
+Launch the browser and you'll see the following page:
 
 <div align=center>
 <br>

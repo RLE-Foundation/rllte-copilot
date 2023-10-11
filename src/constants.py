@@ -8,13 +8,10 @@ import os
 
 DEVICE_TYPE = "cuda"
 
-# load_dotenv()
-ROOT_DIRECTORY = os.path.dirname(os.path.realpath(__file__))
-
 # Define the folder for storing database
-SOURCE_DIRECTORY = f"{ROOT_DIRECTORY}/SOURCE_DOCUMENTS"
+SOURCE_DIRECTORY = "SOURCE_DOCUMENTS"
 
-PERSIST_DIRECTORY = f"DB"
+PERSIST_DIRECTORY = "DB"
 
 # Can be changed to a specific number
 INGEST_THREADS = os.cpu_count() or 8
