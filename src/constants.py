@@ -43,5 +43,5 @@ DOCUMENT_MAP = {
 EMBEDDING_MODEL_NAME = "hkunlp/instructor-large"
 
 # Source LLM Model
-MODEL_ID = "TheBloke/vicuna-7B-1.1-HF"
-MODEL_BASENAME = None
+MODEL_ID = "TheBloke/Llama-2-7b-Chat-GGUF"
+MODEL_BASENAME = "llama-2-7b-chat.Q4_K_M.gguf"
