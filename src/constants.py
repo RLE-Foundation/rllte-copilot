@@ -9,8 +9,6 @@ import os
 DEVICE_TYPE = "cuda"
 
 # Define the folder for storing database
-SOURCE_DIRECTORY = "SOURCE_DOCUMENTS"
-
 PERSIST_DIRECTORY = "DB"
 
 # Can be changed to a specific number
