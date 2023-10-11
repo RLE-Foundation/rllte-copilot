@@ -9,7 +9,7 @@ import os
 DEVICE_TYPE = "cuda"
 
 # Define the folder for storing database
-PERSIST_DIRECTORY = "DB"
+PERSIST_DIRECTORY = "../DB"
 
 # Can be changed to a specific number
 INGEST_THREADS = os.cpu_count() or 8
